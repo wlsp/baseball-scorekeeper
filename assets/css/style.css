@@ -96,6 +96,14 @@ input[type="button"] {
   top: 80%;
 }
 
+/* Farbe für den Zähler */
+.winer {
+  color: #006b00;
+}
+
+.loser {
+  color: #cf1212;
+}
 
 
 
