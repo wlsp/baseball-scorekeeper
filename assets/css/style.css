@@ -138,9 +138,19 @@ input[type="button"] {
     text-align: center; 
     margin: 5% auto;
   } 
+  .button01,
+  .button02 {
+    height: 5vh;
+    width: 18vw;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+  }
 
   #reset {
     left:75%;
-    top: 95%;
+    top: 97%;
   }
 }
