@@ -16,12 +16,14 @@ let sp2Score = 0;
 let winningScore = 99;
 let isGameOver = false;
 
-var info = alert("Please enter the names of the teams before the game starts!")
-var teamOne = prompt("Team One:", "")
-var teamTwo = prompt("Team Two:", "")
+var info = alert("Please enter the names of the teams before the game starts!");
+var teamOne = prompt("Team One:", "");
+var teamTwo = prompt("Team Two:", "");
+
+
 function requiredFunction() {
-        document.getElementById("team01").innerHTML = teamOne 
-        document.getElementById("team02").innerHTML = teamTwo 
+    document.getElementById("team01").innerHTML = teamOne;
+    document.getElementById("team02").innerHTML = teamTwo;
 }
 requiredFunction();
 
@@ -71,7 +73,7 @@ btnTeam02Plus1.addEventListener('click', function () {
             isGameOver = true;
             sp2Display.classList.add('winer');
             sp1Display.classList.add('loser');
-            alert(teamTwo.toUpperCase() +  " , YOU WIN!")
+            alert(teamTwo.toUpperCase() + " , YOU WIN!")
         }
         sp2Display.textContent = sp2Score;
     }
@@ -84,7 +86,7 @@ btnTeam02Plus2.addEventListener('click', function () {
             isGameOver = true;
             sp2Display.classList.add('winer');
             sp1Display.classList.add('loser');
-            alert(teamTwo.toUpperCase() +  " , YOU WIN!")
+            alert(teamTwo.toUpperCase() + " , YOU WIN!")
         }
         sp2Display.textContent = sp2Score;
     }
@@ -97,7 +99,7 @@ btnTeam02Plus3.addEventListener('click', function () {
             isGameOver = true;
             sp2Display.classList.add('winer');
             sp1Display.classList.add('loser');
-            alert(teamTwo.toUpperCase() +  " , YOU WIN!")
+            alert(teamTwo.toUpperCase() + " , YOU WIN!")
         }
         sp2Display.textContent = sp2Score;
     }
@@ -112,4 +114,6 @@ function reset() {
     sp2Display.textContent = 0;
     sp1Display.classList.remove('winer', 'loser');
     sp2Display.classList.remove('winer', 'loser');
+    document.getElementById("team01").innerHTML = "";
+    document.getElementById("team02").innerHTML = "";
 }

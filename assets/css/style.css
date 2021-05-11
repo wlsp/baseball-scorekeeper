@@ -1,6 +1,6 @@
 /* 
 font-family: 'Orbitron', sans-serif;
-Farben: #282828, #FFF851, #000000, #FFFFFF, #4FF5B9, #4C5DF8
+Farben: #282828, #FFF851, #000000, #FFFFFF, #4FF5B9, #4C5DF8;
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
@@ -121,7 +121,7 @@ input[type="button"] {
   body {
     display: block;
     font-family: 'Orbitron', sans-serif;
-    height: 100vh;
+    height: 105vh;
     width: 100%;
     overflow: hidden;
     margin: 0;
@@ -140,12 +140,16 @@ input[type="button"] {
     margin: 0 auto;
   }
   
- 
   .teams  {
-    width: 80%;
+    width: 70%;
     text-align: center; 
     margin: 5% auto;
   } 
+
+  .point {
+    height: 25vh;
+  }
+  
   .button01,
   .button02 {
     height: 5vh;
