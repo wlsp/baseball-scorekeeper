@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baseball Scorekeeper</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapping">
+      <div class="card">
+        <div class="teams one">
+          <div class="point"><h1 id="pointsTeam1">0</h1></div>
+          <span id="team01"></span>
+        </div>
+        <form action="">
+          <input type="button" value="+1" id="btnTeam01Plus1" class="button01" />
+          <input type="button" value="+2" id="btnTeam01Plus2" class="button01"  />
+          <input type="button" value="+3" id="btnTeam01Plus3" class="button01"  />
+        </form>
+      </div>
+      <div class="card">
+        <div class="teams two">
+          <div class="point"><h1 id="pointsTeam2">0</h1></div>
+          <span id="team02"></span>
+        </div>
+        <form action="">
+          <input type="button" value="+1" id="btnTeam02Plus1" class="button02" />
+          <input type="button" value="+2" id="btnTeam02Plus2" class="button02"  />
+          <input type="button" value="+3" id="btnTeam02Plus3" class="button02"  />
+        </form>
+      </div>
+      <input type="button" value="Reset" id="reset">
+    </div>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

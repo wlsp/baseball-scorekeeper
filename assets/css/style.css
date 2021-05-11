@@ -1,0 +1,146 @@
+/* 
+font-family: 'Orbitron', sans-serif;
+Farben: #282828, #FFF851, #000000, #FFFFFF, #4FF5B9, #4C5DF8
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282828;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  height: 100vh;
+}
+
+.wrapping {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 60vh;
+  width: 150vh;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+
+.teams  {
+  width: 150%;
+  text-align: center; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+} 
+
+.one, .button01 {
+  border: 2px solid #4FF5B9;
+  border-radius: 5px;
+}
+.two, .button02 {
+  border: 2px solid #4C5DF8;
+  border-radius: 5px;
+}
+
+.button01 {
+  padding: 2vh 1vw;
+  background-color: #4FF5B9;
+  color: #fff;
+}
+.button02 {
+  padding: 2vh 1vw;
+  background-color: #4C5DF8;
+  color: #fff;
+}
+
+
+.teams > #team01, .teams > #team02  {
+  background-color: #282828;
+  color: #fff;
+  font-size: .9em;
+  padding: 0 2%;
+}
+
+.point  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #FFF851;
+  border-radius: 5px;
+  font-weight: 100;
+  font-size: 2.5em;
+  margin: 5%;
+  height: 30vh;
+
+}
+input {
+  font-family: 'Orbitron', sans-serif;
+}
+input[type="button"] {
+  cursor: pointer;
+}
+
+#reset {
+  position: absolute;
+  text-align: center;
+  top: 80%;
+}
+
+
+
+
+
+
+
+
+/* Media Queries for Mobil Phones */
+
+@media screen and (max-width: 425px) {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapping {
+    display: block;
+    text-align: center;
+    height: 60vh;
+    width: 100%;
+  }
+  
+  .card {
+    display: block;
+    margin: 0 auto;
+  }
+  
+ 
+  .teams  {
+    width: 80%;
+    text-align: center; 
+    margin: 5% auto;
+  } 
+
+  #reset {
+    left:43%;
+    top: 95%;
+  }
+}
