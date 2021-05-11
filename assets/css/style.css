@@ -83,8 +83,9 @@ body {
   height: 30vh;
 
 }
-input {
+input, button {
   font-family: 'Orbitron', sans-serif;
+  border: none;
 }
 input[type="button"] {
   cursor: pointer;
@@ -93,7 +94,19 @@ input[type="button"] {
 #reset {
   position: absolute;
   text-align: center;
+  left: 43%;
   top: 80%;
+  width: 12%;
+}
+
+#resetAll {
+  background-color: #900;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  left: 43%;
+  top: 86%;
+  width: 12%;
 }
 
 /* Farbe für den Zähler */
@@ -105,14 +118,7 @@ input[type="button"] {
   color: #cf1212;
 }
 
-
-
-
-
-
-
 /* Media Queries for Mobil Phones */
-
 @media screen and (max-width: 425px) {
   * {
     box-sizing: border-box;
@@ -133,6 +139,7 @@ input[type="button"] {
     text-align: center;
     height: 60vh;
     width: 100%;
+    margin-top: 10%;
   }
   
   .card {
@@ -149,7 +156,7 @@ input[type="button"] {
   .point {
     height: 25vh;
   }
-  
+
   .button01,
   .button02 {
     height: 5vh;
@@ -162,6 +169,10 @@ input[type="button"] {
   }
 
   #reset {
+    left:75%;
+    top: 93%;
+  }
+  #resetAll {
     left:75%;
     top: 97%;
   }

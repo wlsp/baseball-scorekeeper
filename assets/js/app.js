@@ -114,6 +114,4 @@ function reset() {
     sp2Display.textContent = 0;
     sp1Display.classList.remove('winer', 'loser');
     sp2Display.classList.remove('winer', 'loser');
-    document.getElementById("team01").innerHTML = "";
-    document.getElementById("team02").innerHTML = "";
 }
