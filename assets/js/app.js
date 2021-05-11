@@ -32,7 +32,7 @@ btnTeam01Plus1.addEventListener('click', function () {
             isGameOver = true;
             sp1Display.classList.add('winer');
             sp2Display.classList.add('loser');
-            alert("CONGRATS PLAYER 1, YOU WIN!")
+            alert(teamOne.toUpperCase() + " , YOU WIN!")
         }
         sp1Display.textContent = sp1Score;
     }
@@ -45,7 +45,7 @@ btnTeam01Plus2.addEventListener('click', function () {
             isGameOver = true;
             sp1Display.classList.add('winer');
             sp2Display.classList.add('loser');
-            alert("CONGRATS PLAYER 1, YOU WIN!")
+            alert(teamOne.toUpperCase() + " , YOU WIN!")
         }
         sp1Display.textContent = sp1Score;
     }
@@ -58,7 +58,7 @@ btnTeam01Plus3.addEventListener('click', function () {
             isGameOver = true;
             sp1Display.classList.add('winer');
             sp2Display.classList.add('loser');
-            alert("CONGRATS PLAYER 1, YOU WIN!")
+            alert(teamOne.toUpperCase() + " , YOU WIN!")
         }
         sp1Display.textContent = sp1Score;
     }
@@ -71,7 +71,7 @@ btnTeam02Plus1.addEventListener('click', function () {
             isGameOver = true;
             sp2Display.classList.add('winer');
             sp1Display.classList.add('loser');
-            alert("CONGRATS PLAYER 2, YOU WIN!")
+            alert(teamTwo.toUpperCase() +  " , YOU WIN!")
         }
         sp2Display.textContent = sp2Score;
     }
@@ -84,7 +84,7 @@ btnTeam02Plus2.addEventListener('click', function () {
             isGameOver = true;
             sp2Display.classList.add('winer');
             sp1Display.classList.add('loser');
-            alert("CONGRATS PLAYER 2, YOU WIN!")
+            alert(teamTwo.toUpperCase() +  " , YOU WIN!")
         }
         sp2Display.textContent = sp2Score;
     }
@@ -97,7 +97,7 @@ btnTeam02Plus3.addEventListener('click', function () {
             isGameOver = true;
             sp2Display.classList.add('winer');
             sp1Display.classList.add('loser');
-            alert("CONGRATS PLAYER 2, YOU WIN!")
+            alert(teamTwo.toUpperCase() +  " , YOU WIN!")
         }
         sp2Display.textContent = sp2Score;
     }
